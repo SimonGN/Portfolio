@@ -4,11 +4,11 @@ import styled from 'styled-components';
 const FontP = styled.p`
     font-family: Graphik,Helvetica,Arial;
     font-weight: 400;
-    font-size: 19px;
+    font-size: ${props => (props.size ? props.size : '19px')};
     letter-spacing: 0.03rem;
     line-height: 1.35;
     color: ${props => (props.color === 'white' ? 'white' : '#4A4A4A')};
-    text-align: ${props => (props.align === 'center' ? 'center' : 'left')};
+    text-align: ${props => (props.align ? props.align : 'left')};;
 
     @media only screen and (min-width:415px) and (max-width:768px){
     }

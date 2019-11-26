@@ -222,6 +222,8 @@ var Project = function Project(_ref) {
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_fontsStyles_fontP__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    align: "right",
+    size: "12px",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22
@@ -308,7 +310,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  width:90%;\n  margin: 0 auto;\n  img{\n    background-repeat:no-repeat;\n    background-size: contain;\n    width:100%;\n    height:auto;\n    max-height:500px;\n    display: block;\n  }\n\n  .info{\n    width:95%;\n    margin:0 auto;\n    display:flex;\n    justify-content: space-between;\n    align-items: center;\n  }\n\n   @media only screen and (min-width: 415px) and (max-width: 768px) {\n    \n  }\n\n  @media only screen and (min-width: 769px) and (max-width: 1024px) {\n    \n  }\n\n  @media only screen and (min-width: 1025px) and (max-width: 1440px) {\n    \n  }\n\n  @media only screen and (min-width: 1441px) {\n    \n  }\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  width:90%;\n  margin: 0 auto;\n  img{\n    background-repeat:no-repeat;\n    background-size: contain;\n    width:100%;\n    height:auto;\n    max-height:500px;\n    display: block;\n  }\n\n  .info{\n    width:95%;\n    margin:0 auto;\n    display:flex;\n    justify-content: space-between;\n    align-items: center;\n    padding-top: 4%;\n    padding-bottom: 10%;\n  }\n\n   @media only screen and (min-width: 415px) and (max-width: 768px) {\n    \n  }\n\n  @media only screen and (min-width: 769px) and (max-width: 1024px) {\n    \n  }\n\n  @media only screen and (min-width: 1025px) and (max-width: 1440px) {\n    \n  }\n\n  @media only screen and (min-width: 1441px) {\n    \n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -376,6 +378,7 @@ var Text = function Text() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_styles_fontsStyles_fontp__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    size: "40px",
     onClick: handleOpen,
     cursor: "true",
     __source: {
@@ -619,7 +622,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n width:100vw;\n\nh1{\n  margin-bottom:5%;\n}\ndisplay:flex;\nflex-direction: column;\nnav{\n  overflow: hidden;\n  position:absolute;\n  top:0 ;\n  background-color:#FFF8E6;\n  width:100vw;\n  margin: 0 auto;\n  height:100vh;\n  display: ", ";\n}\n.mobile{\n  width:90%;\n  margin: 0 auto;\n  margin-top:5%;\n  p{\n    width: fit-content;\n  }\n}\n.info{\n  width:85vw;\n  padding-top: 5%;\n  padding-left: 5%;\n  padding-bottom:5%;\n  display:flex;\n  flex-flow:column;\n  justify-content: space-between;\n  \n}\n.close{\n  width:9vw;\n  padding-top: 2%;\n  padding-left: 3%;\n  width: fit-content;\n}\n.button{\n  padding-top:5%;\n  display: flex;\n  justify-content:space-between;\n  display:none;\n}\n\n.email, .phone, .social, .links {\n  display:flex;\n  justify-content:space-between;\n}\n.email, .phone{\n  margin-bottom: 2%\n}\n.links{\n  width: 75%;\n}\n\n\n\n@media only screen and (min-width: 415px) and (max-width: 768px) {\n  \n}\n\n@media only screen and (min-width: 769px) and (max-width: 1024px) {\n  \n}\n\n@media only screen and (min-width: 1025px) and (max-width: 1440px) {\n  \n}\n\n@media only screen and (min-width: 1441px) {\n  \n}\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n width:100vw;\n\nh1{\n  margin-bottom:5%;\n}\ndisplay:flex;\nflex-direction: column;\nnav{\n  overflow: hidden;\n  position:absolute;\n  top:0 ;\n  background-color:#FFF8E6;\n  width:100vw;\n  margin: 0 auto;\n  height:100vh;\n  display: ", ";\n}\n.mobile{\n  width:90%;\n  margin: 0 auto;\n  margin-top:5%;\n  margin-bottom: 5%;\n  p{\n    width: fit-content;\n  }\n}\n.info{\n  width:85vw;\n  padding-top: 5%;\n  padding-left: 5%;\n  padding-bottom:5%;\n  display:flex;\n  flex-flow:column;\n  justify-content: space-between;\n  \n}\n.close{\n  width:9vw;\n  padding-top: 2%;\n  padding-left: 3%;\n  width: fit-content;\n}\n.button{\n  padding-top:5%;\n  display: flex;\n  justify-content:space-between;\n  display:none;\n}\n\n.email, .phone, .social, .links {\n  display:flex;\n  justify-content:space-between;\n}\n.email, .phone{\n  margin-bottom: 2%\n}\n.links{\n  width: 75%;\n}\n\n\n\n@media only screen and (min-width: 415px) and (max-width: 768px) {\n  \n}\n\n@media only screen and (min-width: 769px) and (max-width: 1024px) {\n  \n}\n\n@media only screen and (min-width: 1025px) and (max-width: 1440px) {\n  \n}\n\n@media only screen and (min-width: 1441px) {\n  \n}\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -640,10 +643,10 @@ var TextStyle = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].sectio
 /*!******************************!*\
   !*** ./content/project.json ***!
   \******************************/
-/*! exports provided: 0, 1, default */
+/*! exports provided: 0, 1, 2, default */
 /***/ (function(module) {
 
-module.exports = [{"img":"static/img/simon-gonzalez-negrete-name.jpg","client":"Hola","linkWeb":"","linkBehance":"","stack":"Holita","type":"Branding"},{"img":"","client":"Adios","linkWeb":"","linkBehance":"","stack":"Adiosita","type":"Web"}];
+module.exports = [{"img":"static/img/simon-gonzalez-negrete-name.jpg","client":"Peninsula","info":"","linkWeb":"","linkBehance":"","stack":"Branding, naming","type":"Branding"},{"img":"static/img/simon-gonzalez-negrete-name.jpg","client":"Adios","linkWeb":"","linkBehance":"","stack":"Adiosita","type":"Web"},{"img":"static/img/simon-gonzalez-negrete-name.jpg","client":"Adios","linkWeb":"","linkBehance":"","stack":"Adiosita","type":"Web"}];
 
 /***/ }),
 
@@ -15363,7 +15366,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    font-family: Graphik,Helvetica,Arial;\n    font-weight: 400;\n    font-size: 19px;\n    letter-spacing: 0.03rem;\n    line-height: 1.35;\n    color: ", ";\n    text-align: ", ";\n\n    @media only screen and (min-width:415px) and (max-width:768px){\n    }\n\n    @media only screen and (min-width:769px) and (max-width:1024px){\n    }\n\n    @media only screen and (min-width:1025px) and (max-width:1440px){\n    }\n\n    @media only screen and (min-width:1025px) and (max-width:1440px){\n    }\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    font-family: Graphik,Helvetica,Arial;\n    font-weight: 400;\n    font-size: ", ";\n    letter-spacing: 0.03rem;\n    line-height: 1.35;\n    color: ", ";\n    text-align: ", ";;\n\n    @media only screen and (min-width:415px) and (max-width:768px){\n    }\n\n    @media only screen and (min-width:769px) and (max-width:1024px){\n    }\n\n    @media only screen and (min-width:1025px) and (max-width:1440px){\n    }\n\n    @media only screen and (min-width:1025px) and (max-width:1440px){\n    }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -15374,9 +15377,11 @@ function _templateObject() {
 
 
 var FontP = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].p(_templateObject(), function (props) {
+  return props.size ? props.size : '19px';
+}, function (props) {
   return props.color === 'white' ? 'white' : '#4A4A4A';
 }, function (props) {
-  return props.align === 'center' ? 'center' : 'left';
+  return props.align ? props.align : 'left';
 });
 /* harmony default export */ __webpack_exports__["default"] = (FontP);
 
@@ -15396,7 +15401,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    font-family: Graphik,Helvetica,Arial;\n    font-weight: 400;\n    font-size: 19px;\n    letter-spacing: 0.03rem;\n    line-height: 1.35;\n    color: ", ";\n    text-align: ", ";\n\n\n\n    @media only screen and (min-width:415px) and (max-width:768px){\n    }\n\n    @media only screen and (min-width:769px) and (max-width:1024px){\n    }\n\n    @media only screen and (min-width:1025px) and (max-width:1440px){\n    }\n\n    @media only screen and (min-width:1025px) and (max-width:1440px){\n    }\n\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    font-family: Graphik,Helvetica,Arial;\n    font-weight: 400;\n    font-size: ", ";\n    letter-spacing: 0.03rem;\n    line-height: 1.35;\n    color: ", ";\n    text-align: ", ";\n\n\n\n    @media only screen and (min-width:415px) and (max-width:768px){\n    }\n\n    @media only screen and (min-width:769px) and (max-width:1024px){\n    }\n\n    @media only screen and (min-width:1025px) and (max-width:1440px){\n    }\n\n    @media only screen and (min-width:1025px) and (max-width:1440px){\n    }\n\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -15407,6 +15412,8 @@ function _templateObject() {
 
 
 var FontH1 = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].h1(_templateObject(), function (props) {
+  return props.size ? props.size : '19px';
+}, function (props) {
   return props.backgroundColor ? props.backgroundColor : "#4A4A4A";
 }, function (props) {
   return props.align ? props.align : "left";
@@ -15429,7 +15436,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    font-family: Graphik,Helvetica,Arial;\n    font-weight: 400;\n    font-size: 19px;\n    letter-spacing: 0.03rem;\n    line-height: 1.35;\n    color: ", ";\n    text-align: ", ";\n\n    @media only screen and (min-width:415px) and (max-width:768px){\n    }\n\n    @media only screen and (min-width:769px) and (max-width:1024px){\n    }\n\n    @media only screen and (min-width:1025px) and (max-width:1440px){\n    }\n\n    @media only screen and (min-width:1025px) and (max-width:1440px){\n    }\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    font-family: Graphik,Helvetica,Arial;\n    font-weight: 400;\n    font-size: ", ";\n    letter-spacing: 0.03rem;\n    line-height: 1.35;\n    color: ", ";\n    text-align: ", ";;\n\n    @media only screen and (min-width:415px) and (max-width:768px){\n    }\n\n    @media only screen and (min-width:769px) and (max-width:1024px){\n    }\n\n    @media only screen and (min-width:1025px) and (max-width:1440px){\n    }\n\n    @media only screen and (min-width:1025px) and (max-width:1440px){\n    }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -15440,9 +15447,11 @@ function _templateObject() {
 
 
 var FontP = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].p(_templateObject(), function (props) {
+  return props.size ? props.size : '19px';
+}, function (props) {
   return props.color === 'white' ? 'white' : '#4A4A4A';
 }, function (props) {
-  return props.align === 'center' ? 'center' : 'left';
+  return props.align ? props.align : 'left';
 });
 /* harmony default export */ __webpack_exports__["default"] = (FontP);
 

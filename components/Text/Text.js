@@ -18,7 +18,7 @@ const Text = () => {
   return (
     <TextStyle view={view}>
       <div className="mobile">
-        <FontP onClick={handleOpen} cursor={"true"}>Hola</FontP>
+        <FontP size="40px" onClick={handleOpen} cursor={"true"}>Hola</FontP>
 
       </div>
       <nav>

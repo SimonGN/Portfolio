@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const FontH1 = styled.h1`
     font-family: Graphik,Helvetica,Arial;
     font-weight: 400;
-    font-size: 19px;
+    font-size: ${props => (props.size ? props.size : '19px')};
     letter-spacing: 0.03rem;
     line-height: 1.35;
     color: ${props => props.backgroundColor ? props.backgroundColor : "#4A4A4A"};

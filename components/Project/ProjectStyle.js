@@ -18,6 +18,8 @@ const ProjectStyle = styled.section`
     display:flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 4%;
+    padding-bottom: 10%;
   }
 
    @media only screen and (min-width: 415px) and (max-width: 768px) {

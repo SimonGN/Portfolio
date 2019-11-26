@@ -17,9 +17,9 @@ const Project = ({img, client, linkWeb, linkBehance, stack, type}) => {
                 
             </div>
             <div className="info">
-              <FontP> {client}</FontP>
+              <FontP > {client}</FontP>
               <Button content="+" color="#F1A409" backgroundColor="#FCEDCE" />
-              <FontP> {stack}</FontP>
+              <FontP align="right" size="12px"> {stack}</FontP>
             </div>
 
         </ProjectStyle>

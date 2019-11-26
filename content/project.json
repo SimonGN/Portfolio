@@ -1,14 +1,23 @@
 [
     {
         "img":"static/img/simon-gonzalez-negrete-name.jpg",
-        "client":"Hola",
+        "client":"Peninsula",
+        "info":"",
         "linkWeb":"",
         "linkBehance":"",
-        "stack":"Holita",
+        "stack":"Branding, naming",
         "type":"Branding"
     },
     {
-        "img":"",
+        "img":"static/img/simon-gonzalez-negrete-name.jpg",
+        "client":"Adios",
+        "linkWeb":"",
+        "linkBehance":"",
+        "stack":"Adiosita",
+        "type":"Web"
+    },
+    {
+        "img":"static/img/simon-gonzalez-negrete-name.jpg",
         "client":"Adios",
         "linkWeb":"",
         "linkBehance":"",

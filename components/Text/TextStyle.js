@@ -22,6 +22,7 @@ nav{
   width:90%;
   margin: 0 auto;
   margin-top:5%;
+  margin-bottom: 5%;
   p{
     width: fit-content;
   }

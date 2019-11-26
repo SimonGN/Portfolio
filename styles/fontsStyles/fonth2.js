@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const FontH2 = styled.h2`
     font-family: "Arial";
     color: ${props => (props.color === 'white' ? 'white' : '#4A4A4A')};
-    font-size: 32px;
+    font-size: ${props => (props.size ? props.size : '32px')};
     letter-spacing: 0.08rem;
     text-align: ${props => (props.align === 'center' ? 'center' : 'left')};
     cursor: pointer;
