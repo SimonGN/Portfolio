@@ -68,7 +68,26 @@ nav{
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
-  
+  .mobile, .close{
+    display:none;
+  }
+  nav{
+    width:50%;
+    display:block;
+    position:fixed;
+  }
+  .info{
+    width:90%;
+    height: 94%;
+  }
+  .social{
+    width:40%;
+    width: 100%;
+  }
+  .links{
+    width:50%;
+  }
+
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
