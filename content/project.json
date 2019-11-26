@@ -1,18 +1,18 @@
 [
     {
-        "img":"",
-        "client":"",
+        "img":"static/img/simon-gonzalez-negrete-name.jpg",
+        "client":"Hola",
         "linkWeb":"",
         "linkBehance":"",
-        "stack":"",
+        "stack":"Holita",
         "type":"Branding"
     },
     {
         "img":"",
-        "client":"",
+        "client":"Adios",
         "linkWeb":"",
         "linkBehance":"",
-        "stack":"",
+        "stack":"Adiosita",
         "type":"Web"
     }
 

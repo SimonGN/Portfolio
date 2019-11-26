@@ -1,18 +1,29 @@
-import React from "react";
-import { ProjectStyle } from "./ProjectStyle";
+import React, { useState } from "react";
 
 import Link from "next/link";
+import Button from "../Button/Button";
 
-import Fonth1 from "../../"
+import { ProjectStyle } from "./ProjectStyle";
+
+import FontP from "../../styles/fontsStyles/fontP";
+
+const Project = ({img, client, linkWeb, linkBehance, stack, type}) => {
 
 
-const Project = () => {
-  return (
-    <ProjectStyle>
+    return (
+        <ProjectStyle  >
+            <img  src={img} />
+            <div className="img">
+                
+            </div>
+            <div className="info">
+              <FontP> {client}</FontP>
+              <Button content="+" color="#F1A409" backgroundColor="#FCEDCE" />
+              <FontP> {stack}</FontP>
+            </div>
 
-
-    </ProjectStyle>
-  );
+        </ProjectStyle>
+    );
 };
 
 export default Project;

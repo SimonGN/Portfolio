@@ -2,7 +2,7 @@ import Meta from "../components/Meta";
 
 
 import { PageStyle } from "../styles/pagesStyles/PageStyle"
-import Project from "../components/Project/Project"
+import ProjectAll from "../components/Project/ProjectAll"
 import Text from "../components/Text/Text"
 
 
@@ -12,7 +12,8 @@ function Home() {
   <PageStyle>
     <Meta/>
     <Text />
-    <Project />
+    <ProjectAll />
+
   </PageStyle>
 
   );
