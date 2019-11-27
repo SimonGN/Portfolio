@@ -300,30 +300,36 @@ var Project = function Project(_ref) {
       lineNumber: 19
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_fontsStyles_fontP__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20
     },
     __self: this
-  }, " ", client), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Button_Button__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    content: "+",
-    color: "#F1A409",
-    backgroundColor: "#FCEDCE",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_fontsStyles_fontP__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_fontsStyles_fontP__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, " ", client), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_fontsStyles_fontP__WEBPACK_IMPORTED_MODULE_4__["default"], {
     align: "right",
-    size: "12px",
+    size: "15px",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22
     },
     __self: this
-  }, " ", stack)));
+  }, " ", stack)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Button_Button__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    content: "+",
+    color: "#F1A409",
+    backgroundColor: "#FCEDCE",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  })));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Project);
@@ -341,32 +347,24 @@ var Project = function Project(_ref) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _Button_Button__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Button/Button */ "./components/Button/Button.js");
-/* harmony import */ var _styles_fontsStyles_fontP__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../styles/fontsStyles/fontP */ "./styles/fontsStyles/fontP.js");
-/* harmony import */ var _Project__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Project */ "./components/Project/Project.js");
-/* harmony import */ var _content_project_json__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../content/project.json */ "./content/project.json");
-var _content_project_json__WEBPACK_IMPORTED_MODULE_5___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../content/project.json */ "./content/project.json", 1);
+/* harmony import */ var _Project__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Project */ "./components/Project/Project.js");
+/* harmony import */ var _content_project_json__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../content/project.json */ "./content/project.json");
+var _content_project_json__WEBPACK_IMPORTED_MODULE_2___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../content/project.json */ "./content/project.json", 1);
 var _jsxFileName = "/Users/simongnegrete/Desktop/Tailor/Portfolio/components/Project/ProjectAll.js";
-
-
- // import { ProjectAllStyle } from "./ProjectAllStyle";
-
 
 
 
 
 var ProjectAll = function ProjectAll() {
   var displayProject = function displayProject() {
-    return _content_project_json__WEBPACK_IMPORTED_MODULE_5__.map(function (project) {
+    return _content_project_json__WEBPACK_IMPORTED_MODULE_2__.map(function (project) {
       var img = project.img,
           client = project.client,
           linkWeb = project.linkWeb,
           linkBehance = project.linkBehance,
           stack = project.stack,
           type = project.type;
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Project__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Project__WEBPACK_IMPORTED_MODULE_1__["default"], {
         img: img,
         client: client,
         linkWeb: linkWeb,
@@ -375,7 +373,7 @@ var ProjectAll = function ProjectAll() {
         type: type,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19
+          lineNumber: 12
         },
         __self: this
       });
@@ -405,7 +403,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  width:90%;\n  margin: 0 auto;\n  img{\n    background-repeat:no-repeat;\n    background-size: contain;\n    width:100%;\n    height:auto;\n    max-height:500px;\n    display: block;\n  }\n\n  .info{\n    width:95%;\n    margin:0 auto;\n    display:flex;\n    justify-content: space-between;\n    align-items: center;\n    padding-top: 4%;\n    padding-bottom: 10%;\n  }\n\n   @media only screen and (min-width: 415px) and (max-width: 768px) {\n    \n  }\n\n  @media only screen and (min-width: 769px) and (max-width: 1024px) {\n    \n  }\n\n  @media only screen and (min-width: 1025px) and (max-width: 1440px) {\n    \n  }\n\n  @media only screen and (min-width: 1441px) {\n    \n  }\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  width:90%;\n  margin: 0 auto;\n  img{\n    background-repeat:no-repeat;\n    background-size: contain;\n    width:100%;\n    height:auto;\n    max-height:500px;\n    display: block;\n  }\n\n  .info{\n    width:95%;\n    margin:0 auto;\n    display:flex;\n    justify-content: space-between;\n    align-items: center;\n    padding-top: 4%;\n    padding-bottom: 10%;\n    div{\n      display: flex;\n      flex-direction: column;\n      align-items: self-end;\n    }\n  }\n\n   @media only screen and (min-width: 415px) and (max-width: 768px) {\n    \n  }\n\n  @media only screen and (min-width: 769px) and (max-width: 1024px) {\n    width:45%;\n    margin-left: 52.5%;\n    margin-top:2%;\n    .info{\n      padding-top: 1%;\n      padding-bottom: 2%;\n    }\n\n  }\n\n  @media only screen and (min-width: 1025px) and (max-width: 1440px) {\n    width:45%;\n    margin-left: 52.5%;\n    margin-top:2%;\n    .info{\n      padding-top: 1%;\n      padding-bottom: 2%;\n    }\n  }\n\n  @media only screen and (min-width: 1441px) {\n    width:45%;\n    margin-top:2.5%;\n    margin-left: 52.5%;\n\n    .info{\n      padding-top: 1%;\n      padding-bottom: 2%;\n    }\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -718,7 +716,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n width:100vw;\n\nh1{\n  margin-bottom:5%;\n}\ndisplay:flex;\nflex-direction: column;\nnav{\n  overflow: hidden;\n  position:absolute;\n  top:0 ;\n  background-color:#FFF8E6;\n  width:100vw;\n  margin: 0 auto;\n  height:100vh;\n  display: ", ";\n}\n.mobile{\n  width:90%;\n  margin: 0 auto;\n  margin-top:5%;\n  margin-bottom: 5%;\n  p{\n    width: fit-content;\n  }\n}\n.info{\n  width:85vw;\n  padding-top: 5%;\n  padding-left: 5%;\n  padding-bottom:5%;\n  display:flex;\n  flex-flow:column;\n  justify-content: space-between;\n  \n}\n.close{\n  width:9vw;\n  padding-top: 2%;\n  padding-left: 3%;\n  width: fit-content;\n}\n.button{\n  padding-top:5%;\n  display: flex;\n  justify-content:space-between;\n  display:none;\n}\n\n.email, .phone, .social, .links {\n  display:flex;\n  justify-content:space-between;\n}\n.email, .phone{\n  margin-bottom: 2%\n}\n.links{\n  width: 75%;\n}\n\n\n\n@media only screen and (min-width: 415px) and (max-width: 768px) {\n  \n}\n\n@media only screen and (min-width: 769px) and (max-width: 1024px) {\n  .mobile, .close{\n    display:none;\n  }\n  nav{\n    width:50%;\n    display:block;\n    position:fixed;\n  }\n  .info{\n    width:90%;\n    height: 94%;\n  }\n  .social{\n    width:40%;\n    width: 100%;\n  }\n  .links{\n    width:50%;\n  }\n\n}\n\n@media only screen and (min-width: 1025px) and (max-width: 1440px) {\n  \n}\n\n@media only screen and (min-width: 1441px) {\n  \n}\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n width:100vw;\n\nh1{\n  margin-bottom:5%;\n}\ndisplay:flex;\nflex-direction: column;\nnav{\n  overflow-y:hidden;\n  position:absolute;\n  top:0 ;\n  background-color:#FFF8E6;\n  width:100vw;\n  margin: 0 auto;\n  height:100vh;\n  display: ", ";\n}\n.mobile{\n  width:90%;\n  margin: 0 auto;\n  margin-top:5%;\n  margin-bottom: 5%;\n  p{\n    width: fit-content;\n  }\n}\n.info{\n  width:85vw;\n  padding-top: 5%;\n  padding-left: 5%;\n  padding-bottom:5%;\n  display:flex;\n  flex-flow:column;\n  justify-content: space-between;\n  \n}\n.close{\n  width:9vw;\n  padding-top: 2%;\n  padding-left: 3%;\n  width: fit-content;\n}\n.button{\n  padding-top:5%;\n  display: flex;\n  justify-content:space-between;\n  display:none;\n}\n.contact{\n  width:100%;\n}\n\n.email, .phone, .social, .links {\n  display:flex;\n  justify-content:space-between;\n}\n.email, .phone{\n  margin-bottom: 2%\n}\n.links{\n  width: 75%;\n}\n\n\n\n@media only screen and (min-width: 415px) and (max-width: 768px) {\n  \n}\n\n@media only screen and (min-width: 769px) and (max-width: 1024px) {\n  .mobile, .close{\n    display:none;\n  }\n  nav{\n    width:50%;\n    display:block;\n    position:fixed;\n  }\n  .info{\n    width:90%;\n    height: 94%;\n  }\n  .social{\n    width:40%;\n    width: 100%;\n  }\n  .links{\n    width:50%;\n  }\n\n}\n\n@media only screen and (min-width: 1025px) and (max-width: 1440px) {\n  .mobile, .close{\n    display:none;\n  }\n  nav{\n    width:50%;\n    display:block;\n    position:fixed;\n  }\n  .info{\n    width:90%;\n    height: 94%;\n  }\n  .social{\n    width:40%;\n    width: 100%;\n  }\n  .links{\n    width:50%;\n  }\n}\n\n@media only screen and (min-width: 1441px) {\n  .mobile, .close{\n    display:none;\n  }\n  nav{\n    width:50%;\n    display:block;\n    position:fixed;\n  }\n  .info{\n    width:90%;\n    height: 94%;\n  }\n  .social{\n    width:40%;\n    width: 100%;\n  }\n  .links{\n    width:50%;\n  }\n}\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -739,10 +737,10 @@ var TextStyle = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.section
 /*!******************************!*\
   !*** ./content/project.json ***!
   \******************************/
-/*! exports provided: 0, 1, 2, default */
+/*! exports provided: 0, 1, 2, 3, 4, 5, 6, default */
 /***/ (function(module) {
 
-module.exports = [{"img":"static/img/simon-gonzalez-negrete-name.jpg","client":"Peninsula","info":"","linkWeb":"","linkBehance":"","stack":"Branding, naming","type":"Branding"},{"img":"static/img/simon-gonzalez-negrete-name.jpg","client":"Adios","linkWeb":"","linkBehance":"","stack":"Adiosita","type":"Web"},{"img":"static/img/simon-gonzalez-negrete-name.jpg","client":"Adios","linkWeb":"","linkBehance":"","stack":"Adiosita","type":"Web"}];
+module.exports = [{"img":"static/img/simon-gonzalez-negrete-larraz.jpg","client":"Bodegas Larraz","linkWeb":"","linkBehance":"","stack":"Packaging","type":"Design"},{"img":"static/img/simon-gonzalez-negrete-peninsulaw.jpg","client":"Peninsula","linkWeb":"peninsula.work","linkBehance":"","stack":"Web","type":"Web"},{"img":"static/img/simon-gonzalez-negrete-peninsula.jpg","client":"Peninsula","info":"","linkWeb":"","linkBehance":"","stack":"Branding | naming","type":"Design"},{"img":"static/img/simon-gonzalez-negrete-wwda.jpg","client":"Whole Wine","linkWeb":"www.senswine.com","linkBehance":"","stack":"Direción de Arte","type":"Design"},{"img":"static/img/simon-gonzalez-negrete-ww.jpg","client":"Whole Wine","linkWeb":"www.wholewine.com","linkBehance":"","stack":"Branding | web","type":"Design, web"},{"img":"static/img/simon-gonzalez-negrete-luster.jpg","client":"Luster","linkWeb":"","linkBehance":"","stack":"Branding | Packaging","type":"Design"},{"img":"static/img/simon-gonzalez-negrete-wwda.jpg","client":"Whole Wine","linkWeb":"www.senswine.com","linkBehance":"","stack":"Direción de Arte","type":"Design"}];
 
 /***/ }),
 

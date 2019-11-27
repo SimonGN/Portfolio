@@ -9,7 +9,7 @@ h1{
 display:flex;
 flex-direction: column;
 nav{
-  overflow: hidden;
+  overflow-y:hidden;
   position:absolute;
   top:0 ;
   background-color:#FFF8E6;
@@ -48,6 +48,9 @@ nav{
   display: flex;
   justify-content:space-between;
   display:none;
+}
+.contact{
+  width:100%;
 }
 
 .email, .phone, .social, .links {
@@ -91,11 +94,47 @@ nav{
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
-  
+  .mobile, .close{
+    display:none;
+  }
+  nav{
+    width:50%;
+    display:block;
+    position:fixed;
+  }
+  .info{
+    width:90%;
+    height: 94%;
+  }
+  .social{
+    width:40%;
+    width: 100%;
+  }
+  .links{
+    width:50%;
+  }
 }
 
 @media only screen and (min-width: 1441px) {
-  
+  .mobile, .close{
+    display:none;
+  }
+  nav{
+    width:50%;
+    display:block;
+    position:fixed;
+  }
+  .info{
+    width:90%;
+    height: 94%;
+  }
+  .social{
+    width:40%;
+    width: 100%;
+  }
+  .links{
+    width:50%;
+  }
 }
 `;
 

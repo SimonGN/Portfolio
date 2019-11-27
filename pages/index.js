@@ -11,7 +11,7 @@ function Home() {
   
   <PageStyle>
     <Meta/>
-    <Text />
+    <Text/>
     <ProjectAll />
 
   </PageStyle>

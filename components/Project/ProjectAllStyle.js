@@ -12,7 +12,7 @@ const ProjectAllStyle = styled.section`
   }
 
   @media only screen and (min-width: 1025px) and (max-width: 1440px) {
-    
+    width:50vw;
   }
 
   @media only screen and (min-width: 1441px) {

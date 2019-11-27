@@ -17,9 +17,13 @@ const Project = ({img, client, linkWeb, linkBehance, stack, type}) => {
                 
             </div>
             <div className="info">
-              <FontP > {client}</FontP>
+                <div>
+                <FontP> {client}</FontP>
+                <FontP align="right" size="15px"> {stack}</FontP>
+                </div>
+              
               <Button content="+" color="#F1A409" backgroundColor="#FCEDCE" />
-              <FontP align="right" size="12px"> {stack}</FontP>
+              
             </div>
 
         </ProjectStyle>
