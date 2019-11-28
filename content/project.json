@@ -1,28 +1,103 @@
 [
     {
+        "img":"static/img/simon-gonzalez-negrete-vasalto.jpg",
+        "client":"Vasalto",
+        "linkWeb":"www.vasalto.com",
+        "linkBehance":"",
+        "stack":" Web (Next JS) | Ux&Ui ",
+        "typeDesign":"Behance",
+        "typeWeb":""
+    },
+    {
+        "img":"static/img/simon-gonzalez-negrete-nunc.jpg",
+        "client":"NU:NC",
+        "linkWeb":"www.nunc.app",
+        "linkBehance":"",
+        "stack":" Naming | Branding |Ux&Ui | Web (Next JS)",
+        "typeDesign":"Behance",
+        "typeWeb":"Web"
+    },
+    {
+        "img":"static/img/simon-gonzalez-negrete-Amaped.jpg",
+        "client":"Amaped",
+        "linkWeb":"www.amaped.com",
+        "linkBehance":"",
+        "stack":" Branding | Ux&Ui | Web (Next JS)",
+        "typeDesign":"Behance",
+        "typeWeb":"Web"
+    },
+    {
+        "img":"static/img/simon-gonzalez-negrete-Amaped.jpg",
+        "client":"Eijure",
+        "linkWeb":"",
+        "linkBehance":"",
+        "stack":" Branding | Web (Next JS)",
+        "typeDesign":"Behance",
+        "typeWeb":"Web"
+    },
+    {
+        "img":"static/img/simon-gonzalez-negrete-celiae.jpg",
+        "client":"Celia Valverde",
+        "linkWeb":"celiavalverde.com",
+        "linkBehance":"",
+        "stack":"Editorial",
+        "typeDesign":"Behance",
+        "typeWeb":""
+    },
+    {
+        "img":"static/img/simon-gonzalez-negrete-familiafacil.jpg",
+        "client":"Bodegas Corinelio",
+        "linkWeb":"",
+        "linkBehance":"",
+        "stack":"Packaging",
+        "typeDesign":"Behance",
+        "typeWeb":""
+    },
+    {
+        "img":"static/img/simon-gonzalez-negrete-familiafacil.jpg",
+        "client":"FamiliaFacil",
+        "linkWeb":"",
+        "linkBehance":"",
+        "stack":"Branding | Ux&Ui",
+        "typeDesign":"",
+        "typeWeb":"Web"
+    },
+    {
         "img":"static/img/simon-gonzalez-negrete-larraz.jpg",
         "client":"Bodegas Larraz",
         "linkWeb":"",
         "linkBehance":"",
         "stack":"Packaging",
-        "type":"Design"
+        "typeDesign":"Behance",
+        "typeWeb":""
+    },
+    {
+        "img":"static/img/simon-gonzalez-negrete-celiaw.jpg",
+        "client":"Celia Valverde",
+        "linkWeb":"celiavalverde.com",
+        "linkBehance":"",
+        "stack":"Web (cargo)",
+        "typeDesign":"",
+        "typeWeb":"Web"
     },
     {
         "img":"static/img/simon-gonzalez-negrete-peninsulaw.jpg",
-        "client":"Peninsula",
+        "client":"Península",
         "linkWeb":"peninsula.work",
         "linkBehance":"",
-        "stack":"Web",
-        "type":"Web"
+        "stack":"Web (Wordpress)",
+        "typeDesign":"",
+        "typeWeb":"Web"
     },
     {
         "img":"static/img/simon-gonzalez-negrete-peninsula.jpg",
-        "client":"Peninsula",
+        "client":"Península",
         "info":"",
         "linkWeb":"",
         "linkBehance":"",
         "stack":"Branding | naming",
-        "type":"Design"
+        "typeDesign":"Behance",
+        "typeWeb":""
     },
     {
         "img":"static/img/simon-gonzalez-negrete-wwda.jpg",
@@ -30,7 +105,8 @@
         "linkWeb":"www.senswine.com",
         "linkBehance":"",
         "stack":"Direción de Arte",
-        "type":"Design"
+        "typeDesign":"Behance",
+        "typeWeb":""
     },
     {
         "img":"static/img/simon-gonzalez-negrete-ww.jpg",
@@ -38,7 +114,17 @@
         "linkWeb":"www.wholewine.com",
         "linkBehance":"",
         "stack":"Branding | web",
-        "type":"Design, web"
+        "typeDesign":"Behance",
+        "typeWeb":"Web"
+    },
+    {
+        "img":"static/img/simon-gonzalez-negrete-kyne.jpg",
+        "client":"Kyne",
+        "linkWeb":"",
+        "linkBehance":"",
+        "stack":"Packaging",
+        "typeDesign":"Behance",
+        "typeWeb":""
     },
     {
         "img":"static/img/simon-gonzalez-negrete-luster.jpg",
@@ -46,7 +132,8 @@
         "linkWeb":"",
         "linkBehance":"",
         "stack":"Branding | Packaging",
-        "type":"Design"
+        "typeDesign":"Behance",
+        "typeWeb":""
     },
     {
         "img":"static/img/simon-gonzalez-negrete-wwda.jpg",
@@ -54,7 +141,8 @@
         "linkWeb":"www.senswine.com",
         "linkBehance":"",
         "stack":"Direción de Arte",
-        "type":"Design"
+        "typeDesign":"Behance",
+        "typeWeb":""
     }
 
 ]

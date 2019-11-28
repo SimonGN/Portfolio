@@ -58,7 +58,7 @@ nav{
   justify-content:space-between;
 }
 .email, .phone{
-  margin-bottom: 2%
+  margin-bottom: 2%;
 }
 .links{
   width: 75%;
@@ -67,7 +67,19 @@ nav{
 
 
 @media only screen and (min-width: 415px) and (max-width: 768px) {
-  
+  .info{
+    width: 88vw;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-bottom:3%;
+  }
+  .contact{
+    width:60%;
+  }
+  .links{
+    width: 65%;
+  }
+
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
@@ -81,15 +93,25 @@ nav{
   }
   .info{
     width:90%;
-    height: 94%;
+    height: 98%;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-bottom:3%;
   }
   .social{
     width:40%;
     width: 100%;
   }
-  .links{
-    width:50%;
+  .contact{
+    width:80%;
   }
+  .links{
+    width: 65%;
+  }
+  .email, .phone{
+    margin-bottom: 0.5%;
+  }
+  
 
 }
 
@@ -97,6 +119,9 @@ nav{
   .mobile, .close{
     display:none;
   }
+  h1{
+  margin-bottom:3%;
+}
   nav{
     width:50%;
     display:block;
@@ -104,14 +129,23 @@ nav{
   }
   .info{
     width:90%;
-    height: 94%;
+    height: 98%;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-bottom:2%;
+  }
+  .contact{
+    width:80%;
   }
   .social{
     width:40%;
     width: 100%;
   }
   .links{
-    width:50%;
+    width:60%;
+  }
+  .email, .phone{
+    margin-bottom: 0.5%;
   }
 }
 
@@ -119,6 +153,9 @@ nav{
   .mobile, .close{
     display:none;
   }
+  h1{
+  margin-bottom:3%;
+}
   nav{
     width:50%;
     display:block;
@@ -126,14 +163,23 @@ nav{
   }
   .info{
     width:90%;
-    height: 94%;
+    height: 97%;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-bottom:2%;
   }
   .social{
     width:40%;
     width: 100%;
   }
+  .contact{
+    width:60%;
+  }
   .links{
-    width:50%;
+    width:60%;
+  }
+  .email, .phone{
+    margin-bottom: 0.5%;
   }
 }
 `;

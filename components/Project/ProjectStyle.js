@@ -20,11 +20,17 @@ const ProjectStyle = styled.section`
     align-items: center;
     padding-top: 4%;
     padding-bottom: 10%;
-    div{
+    .text{
       display: flex;
       flex-direction: column;
       align-items: self-end;
     }
+  }
+  .button{
+    width:40%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
   }
 
    @media only screen and (min-width: 415px) and (max-width: 768px) {
