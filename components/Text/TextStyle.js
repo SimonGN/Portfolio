@@ -80,7 +80,6 @@ nav{
 @media only screen and (min-width: 415px) and (max-width: 768px) {
   .info{
     width: 88vw;
-
     padding-top: 3%;
     padding-left: 3%;
     padding-bottom:3%;
@@ -107,7 +106,7 @@ nav{
     position:fixed;
   }
   .info{
-    width:90%;
+    width:95%;
     height: 97vh;
     padding-top: 3%;
     padding-left: 3%;
@@ -146,7 +145,7 @@ nav{
     position:fixed;
   }
   .info{
-    width:90%;
+    width:95%;
     height: 97vh;
     padding-top: 2%;
     padding-left: 2%;
@@ -183,7 +182,7 @@ nav{
     position:fixed;
   }
   .info{
-    width:90%;
+    width:95%;
     height: 97vh;
     padding-top: 2%;
     padding-left: 2%;

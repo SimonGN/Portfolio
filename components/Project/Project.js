@@ -16,7 +16,7 @@ const Project = ({ img, client, stack, links }) => {
     }
 
     return (
-        <ProjectStyle  >
+        <ProjectStyle data-aos="fade-in" data-aos-duration="2000" >
             <img src={img} />
             <div className="img">
 

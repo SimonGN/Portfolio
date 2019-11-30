@@ -7,6 +7,9 @@ const ProjectStyle = styled.section`
     color: #b5fcbe;
     background: black;
   }
+  p{
+    text-align: left;
+  }
   img{
     background-repeat:no-repeat;
     background-size: contain;
@@ -28,7 +31,7 @@ const ProjectStyle = styled.section`
     .text{
       display: flex;
       flex-direction: column;
-      align-items: self-end;
+      align-items: baseline;
     }
   }
   .button{
