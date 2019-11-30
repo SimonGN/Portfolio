@@ -29,7 +29,7 @@ var Button = function Button(props) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_fontsStyles_fontP__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    color: props.color,
+    color: "#b5fcbe",
     size: "12px",
     __source: {
       fileName: _jsxFileName,
@@ -58,7 +58,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    padding:5px 15px;\n    display: inline-block;    \n    background-color: white;\n    border-radius: 25px;\n    border: 1px solid black;\n    cursor:pointer;\n    \n    @media only screen and (min-width:415px) and (max-width:768px){\n        \n    }\n    @media only screen and (min-width:769px) and (max-width:1024px){\n    display:inline-block;\n    }\n    @media only screen and (min-width:1025px) and (max-width:1440px){\n        display:inline-block;\n    }\n    @media only screen and (min-width:1441px){\n        display:inline-block;\n    }\n\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    padding:5px 15px;\n    display: inline-block;    \n    background-color: white;\n    border-radius: 25px;\n    border: 1px solid black;\n    cursor:pointer;\n    background-color: black;\n    \n    @media only screen and (min-width:415px) and (max-width:768px){\n        \n    }\n    @media only screen and (min-width:769px) and (max-width:1024px){\n    display:inline-block;\n    }\n    @media only screen and (min-width:1025px) and (max-width:1440px){\n        display:inline-block;\n    }\n    @media only screen and (min-width:1441px){\n        display:inline-block;\n    }\n\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -333,7 +333,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  width:90%;\n  margin: 0 auto;\n  img{\n    background-repeat:no-repeat;\n    background-size: contain;\n    width:100%;\n    height:auto;\n    max-height:500px;\n    display: block;\n    object-fit:cover;\n  }\n\n  .info{\n    width:95%;\n    margin:0 auto;\n    display:flex;\n    justify-content: space-between;\n    align-items: center;\n    padding-top: 4%;\n    padding-bottom: 10%;\n    .text{\n      display: flex;\n      flex-direction: column;\n      align-items: self-end;\n    }\n  }\n  .button{\n    width:30%;\n    display: flex;\n\n    justify-content: space-between;\n    flex-direction: row-reverse;\n  }\n\n   @media only screen and (min-width: 415px) and (max-width: 768px) {\n\n  }\n\n  @media only screen and (min-width: 769px) and (max-width: 1024px) {\n    width:45%;\n    margin-left: 52.5%;\n    margin-top:2%;\n    .info{\n      padding-top: 1%;\n      padding-bottom: 2%;\n    }\n    .button{\n      width:35%;\n    }\n\n  }\n\n  @media only screen and (min-width: 1025px) and (max-width: 1440px) {\n    width:45%;\n    margin-left: 52.5%;\n    margin-top:2%;\n    .info{\n      padding-top: 1%;\n      padding-bottom: 2%;\n    }\n    .button{\n      width:30%;\n    }\n  }\n\n  @media only screen and (min-width: 1441px) {\n    width:45%;\n    margin-top:2.5%;\n    margin-left: 52.5%;\n\n    .info{\n      padding-top: 1%;\n      padding-bottom: 2%;\n    }\n    .button{\n      width:25%;\n    }\n  }\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  width:90%;\n  margin: 0 auto;\n  a::selection, p::selection {\n    color: #b5fcbe;\n    background: black;\n  }\n  img{\n    background-repeat:no-repeat;\n    background-size: contain;\n    width:100%;\n    height:auto;\n    max-height:500px;\n    display: block;\n    object-fit:cover;\n  }\n\n  .info{\n    width:95%;\n    margin:0 auto;\n    display:flex;\n    justify-content: space-between;\n    align-items: center;\n    padding-top: 4%;\n    padding-bottom: 10%;\n    .text{\n      display: flex;\n      flex-direction: column;\n      align-items: self-end;\n    }\n  }\n  .button{\n    width:30%;\n    display: flex;\n    justify-content: space-between;\n    flex-direction: row-reverse;\n  }\n\n   @media only screen and (min-width: 415px) and (max-width: 768px) {\n\n  }\n\n  @media only screen and (min-width: 769px) and (max-width: 1024px) {\n    width:45%;\n    margin-left: 52.5%;\n    margin-top:2%;\n    .info{\n      padding-top: 1%;\n      padding-bottom: 2%;\n    }\n    .button{\n      width:35%;\n    }\n\n  }\n\n  @media only screen and (min-width: 1025px) and (max-width: 1440px) {\n    width:45%;\n    margin-left: 52.5%;\n    margin-top:2%;\n    .info{\n      padding-top: 1%;\n      padding-bottom: 2%;\n    }\n    .button{\n      width:30%;\n    }\n  }\n\n  @media only screen and (min-width: 1441px) {\n    width:45%;\n    margin-top:2.5%;\n    margin-left: 52.5%;\n\n    .info{\n      padding-top: 1%;\n      padding-bottom: 2%;\n    }\n    .button{\n      width:25%;\n    }\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -435,50 +435,72 @@ var Text = function Text() {
       lineNumber: 27
     },
     __self: this
-  }, "Soy Sim\xF3n G. Negrete. Trabajo como Director de Arte y Desarrollo. "), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_styles_fontsStyles_fontp__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }, "Hola, soy Sim\xF3n G. Negrete. Director de Arte, Ux&Ui y desarrollador.  "), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_styles_fontsStyles_fontp__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 28
     },
     __self: this
-  }, "Especializado en branding y producto, acompa\xF1o a clientes desde la conceptualizaci\xF3n de la idea, pasando por el dise\xF1o e implementaci\xF3n en entornos online como offline. ")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "contact",
+  }, "He creado proyectos para PYMES, Startups y Multinacionales durante m\xE1s de 7 a\xF1os. "), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_styles_fontsStyles_fontp__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, "A principios de 2019 cofund\xE9 ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    target: "_blank",
+    href: "https://tailor-hub.com",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, " Tailor"), " donde desarrollamos productos digitales a medida. Tambien aporto mi granito de arena como instructor en ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    target: "_blank",
+    href: "https://www.ironhack.com/es",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, " IronHack Madrid"), " ayudando a formar nuevos profesionales =D."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_styles_fontsStyles_fontp__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 30
+    },
+    __self: this
+  }, "Si quer\xE9is colaborar, plantear alg\xFAn proyecto, no dud\xE9is en poneros en ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    href: "mailto:hi@simongnegrete.com",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, " Contacto"), ".")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "contact",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "phone",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 34
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_styles_fontsStyles_fontp__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 35
     },
     __self: this
   }, "Tel:"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: "tel:+34679-206-202",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_styles_fontsStyles_fontp__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33
-    },
-    __self: this
-  }, "679 206 202"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "email",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 36
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_styles_fontsStyles_fontp__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -487,24 +509,24 @@ var Text = function Text() {
       lineNumber: 36
     },
     __self: this
-  }, "Email:"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    href: "mailto:hi@simongnegrete.com",
+  }, "679 206 202"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "email",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 38
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_styles_fontsStyles_fontp__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 39
     },
     __self: this
-  }, "hi@simongnegrete.com"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "social",
+  }, "Email:"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    href: "mailto:hi@simongnegrete.com",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 40
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_styles_fontsStyles_fontp__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -513,11 +535,24 @@ var Text = function Text() {
       lineNumber: 40
     },
     __self: this
+  }, "hi@simongnegrete.com"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "social",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_styles_fontsStyles_fontp__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: this
   }, "Social:"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "links",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 44
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
@@ -525,19 +560,19 @@ var Text = function Text() {
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 45
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_styles_fontsStyles_fontp__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 45
     },
     __self: this
   }, "Linkedin")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_styles_fontsStyles_fontp__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 46
     },
     __self: this
   }, "|"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
@@ -545,19 +580,19 @@ var Text = function Text() {
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 47
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_styles_fontsStyles_fontp__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 47
     },
     __self: this
   }, "Github")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_styles_fontsStyles_fontp__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 48
     },
     __self: this
   }, "|"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
@@ -565,20 +600,20 @@ var Text = function Text() {
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 49
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_styles_fontsStyles_fontp__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 49
     },
     __self: this
   }, "Behance")))))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "close",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 54
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_styles_fontsStyles_fontp__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -586,21 +621,21 @@ var Text = function Text() {
     onClick: handleOpen,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 55
     },
     __self: this
   }, "X")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "button",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 57
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
     href: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
+      lineNumber: 58
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Button_Button__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -609,14 +644,14 @@ var Text = function Text() {
     backgroundColor: "#FCEDCE",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
+      lineNumber: 58
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
     href: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 59
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Button_Button__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -625,7 +660,7 @@ var Text = function Text() {
     backgroundColor: "#FCEDCE",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 59
     },
     __self: this
   })))));
@@ -650,7 +685,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n width:100vw;\n a{\n   text-decoration:none;\n }\n\nh1{\n  margin-bottom:5%;\n}\ndisplay:flex;\nflex-direction: column;\nnav{\n  overflow-y:hidden;\n  position:absolute;\n  top:0 ;\n  background-color:#b5fcbe;\n  width:100vw;\n  margin: 0 auto;\n  height:100vh;\n  display: ", ";\n}\n.mobile{\n  width:90%;\n  margin: 0 auto;\n  margin-top:5%;\n  margin-bottom: 5%;\n  p{\n    width: fit-content;\n  }\n}\n.info{\n  width:85vw;\n  padding-top: 5%;\n  padding-left: 5%;\n  padding-bottom:5%;\n  display:flex;\n  flex-flow:column;\n  justify-content: space-between;\n  \n}\n.close{\n  width:9vw;\n  padding-top: 2%;\n  padding-left: 3%;\n  width: fit-content;\n}\n.button{\n  padding-top:5%;\n  display: flex;\n  justify-content:space-between;\n  display:none;\n}\n.contact{\n  width:100%;\n}\n\n.email, .phone, .social, .links {\n  display:flex;\n  justify-content:space-between;\n}\n.email, .phone{\n  margin-bottom: 2%;\n}\n.links{\n  width: 75%;\n}\n\n\n\n@media only screen and (min-width: 415px) and (max-width: 768px) {\n  .info{\n    width: 88vw;\n    padding-top: 3%;\n    padding-left: 3%;\n    padding-bottom:3%;\n  }\n  .contact{\n    width:60%;\n  }\n  .links{\n    width: 65%;\n  }\n\n}\n\n@media only screen and (min-width: 769px) and (max-width: 1024px) {\n  .mobile, .close{\n    display:none;\n  }\n  nav{\n    width:50%;\n    display:block;\n    position:fixed;\n  }\n  .info{\n    width:90%;\n    height: 98%;\n    padding-top: 3%;\n    padding-left: 3%;\n    padding-bottom:3%;\n  }\n  .social{\n    width:40%;\n    width: 100%;\n  }\n  .contact{\n    width:80%;\n  }\n  .links{\n    width: 65%;\n  }\n  .email, .phone{\n    margin-bottom: 0.5%;\n  }\n  \n\n}\n\n@media only screen and (min-width: 1025px) and (max-width: 1440px) {\n  .mobile, .close{\n    display:none;\n  }\n  h1{\n  margin-bottom:3%;\n}\n  nav{\n    width:50%;\n    display:block;\n    position:fixed;\n  }\n  .info{\n    width:90%;\n    height: 98%;\n    padding-top: 2%;\n    padding-left: 2%;\n    padding-bottom:2%;\n  }\n  .contact{\n    width:80%;\n  }\n  .social{\n    width:40%;\n    width: 100%;\n  }\n  .links{\n    width:60%;\n  }\n  .email, .phone{\n    margin-bottom: 0.5%;\n  }\n}\n\n@media only screen and (min-width: 1441px) {\n  .mobile, .close{\n    display:none;\n  }\n  h1{\n  margin-bottom:3%;\n}\n  nav{\n    width:50%;\n    display:block;\n    position:fixed;\n  }\n  .info{\n    width:90%;\n    height: 97%;\n    padding-top: 2%;\n    padding-left: 2%;\n    padding-bottom:2%;\n  }\n  .social{\n    width:40%;\n    width: 100%;\n  }\n  .contact{\n    width:60%;\n  }\n  .links{\n    width:60%;\n  }\n  .email, .phone{\n    margin-bottom: 0.5%;\n  }\n}\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n width:100vw;\n a{\n   text-decoration:none;\n   color: black;\n }\n\nh1, p{\n  margin-bottom:5%;\n}\nh1::selection, a::selection, p::selection {\n    color: #b5fcbe;\n    background: black;\n}\n\ndisplay:flex;\nflex-direction: column;\nnav{\n  overflow-y:hidden;\n  position:fixed;\n  top:0 ;\n  background-color:#b5fcbe;\n  width:100vw;\n  margin: 0 auto;\n  height:100vh;\n  display: ", ";\n}\n.mobile{\n  width:90%;\n  margin: 0 auto;\n  margin-top:5%;\n  margin-bottom: 5%;\n  p{\n    width: fit-content;\n  }\n}\n.info{\n  width:85vw;\n  height: 92vh;\n\n  padding-top: 5%;\n  padding-left: 5%;\n  padding-bottom:5%;\n  display:flex;\n  flex-flow:column;\n  justify-content: space-between;\n  \n}\n.close{\n  width:9vw;\n  padding-top: 2%;\n  padding-left: 3%;\n  width: fit-content;\n}\n.button{\n  padding-top:5%;\n  display: flex;\n  justify-content:space-between;\n  display:none;\n}\n.contact{\n  width:100%;\n}\n\n.email, .phone, .social, .links {\n  display:flex;\n  justify-content:space-between;\n}\n.email, .phone{\n  margin-bottom: 2%;\n}\n.links{\n  width: 75%;\n}\n\n\n\n@media only screen and (min-width: 415px) and (max-width: 768px) {\n  .info{\n    width: 88vw;\n    padding-top: 3%;\n    padding-left: 3%;\n    padding-bottom:3%;\n  }\n  .contact{\n    width:60%;\n  }\n  .links{\n    width: 65%;\n  }\n\n}\n\n@media only screen and (min-width: 769px) and (max-width: 1024px) {\n  h1, p{\n  margin-bottom:2%;\n}\n  .mobile, .close{\n    display:none;\n  }\n  nav{\n    width:50%;\n    display:block;\n    position:fixed;\n  }\n  .info{\n    width:95%;\n    height: 97vh;\n    padding-top: 3%;\n    padding-left: 3%;\n    padding-bottom:3%;\n  }\n  .social{\n    width:40%;\n    width: 100%;\n  }\n  .contact{\n    width:80%;\n  }\n  .links{\n    width: 65%;\n  }\n  .email, .phone{\n    margin-bottom: 0.5%;\n  }\n  \n\n}\n\n@media only screen and (min-width: 1025px) and (max-width: 1440px) {\n  h1, p{\n  margin-bottom:2%;\n}\n  .mobile, .close{\n    display:none;\n  }\n  h1{\n  margin-bottom:3%;\n}\n  nav{\n    width:50%;\n    display:block;\n    position:fixed;\n  }\n  .info{\n    width:95%;\n    height: 97vh;\n    padding-top: 2%;\n    padding-left: 2%;\n    padding-bottom:2%;\n  }\n  .contact{\n    width:80%;\n  }\n  .social{\n    width:40%;\n    width: 100%;\n  }\n  .links{\n    width:60%;\n  }\n  .email, .phone{\n    margin-bottom: 0.5%;\n  }\n}\n\n@media only screen and (min-width: 1441px) {\n  h1, p{\n  margin-bottom:2%;\n}\n  .mobile, .close{\n    display:none;\n  }\n  h1{\n  margin-bottom:3%;\n}\n  nav{\n    width:50%;\n    display:block;\n    position:fixed;\n  }\n  .info{\n    width:95%;\n    height: 97vh;\n    padding-top: 2%;\n    padding-left: 2%;\n    padding-bottom:2%;\n  }\n  .social{\n    width:40%;\n    width: 100%;\n  }\n  .contact{\n    width:60%;\n  }\n  .links{\n    width:60%;\n  }\n  .email, .phone{\n    margin-bottom: 0.5%;\n  }\n}\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -661,7 +696,7 @@ function _templateObject() {
 
 
 var TextStyle = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].section(_templateObject(), function (props) {
-  return props.view ? 'fixed' : 'none';
+  return props.view ? 'flex' : 'none';
 });
 
 
@@ -671,10 +706,10 @@ var TextStyle = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].sectio
 /*!******************************!*\
   !*** ./content/project.json ***!
   \******************************/
-/*! exports provided: 0, 1, 2, 3, 4, 5, default */
+/*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, default */
 /***/ (function(module) {
 
-module.exports = [{"img":"static/img/simon-gonzalez-negrete-larraz.jpg","client":"Bodegas Larraz","stack":"Packaging","links":[{"name":"Behance","url":"https://www.behance.net/gallery/88518471/Flor-de-Caudum"}]},{"img":"static/img/simon-gonzalez-negrete-peninsula.jpg","client":"Península","stack":"Branding | Naming","links":[{"name":"Behance","url":"https://www.behance.net/gallery/88517191/Peninsula"}]},{"img":"static/img/simon-gonzalez-negrete-peninsulaw.jpg","client":"Península","stack":"Web (Wordpress)","links":[{"name":"Web","url":"https://peninsula.work"}]},{"img":"static/img/simon-gonzalez-negrete-wwda.jpg","client":"Whole Wine","stack":"Direción de Arte","links":[{"name":"Behance","url":"https://www.behance.net/gallery/88516841/Whole-WIne"}]},{"img":"static/img/simon-gonzalez-negrete-ww.jpg","client":"Whole Wine","stack":"Branding | Web","links":[{"name":"Web","url":"http://www.wholewine.com/"},{"name":"Behance","url":"https://www.behance.net/gallery/88516841/Whole-WIne"}]},{"img":"static/img/simon-gonzalez-negrete-luster.jpg","client":"Luster","stack":"Branding | Packaging","links":[{"name":"Behnace","url":"https://www.behance.net/gallery/88518167/Luster"}]}];
+module.exports = [{"img":"static/img/simon-gonzalez-negrete-nunc.jpg","client":"NU:NC","stack":"Naming | Branding | UX&UI | Web (NextJS)(Próximamente)","links":[{"name":"Web","url":"https://nunc.app/"}]},{"img":"static/img/simon-gonzalez-negrete-eijure.gif","client":"Eijure","stack":"Branding | UX&UI | Web (NextJS)(Próximamente)","links":[]},{"img":"static/img/simon-gonzalez-negrete-fabres.jpg","client":"Fabres","stack":"Branding (Próximamente)","links":[]},{"img":"static/img/simon-gonzalez-negrete-vegaolea.jpg","client":"Vega Olea","stack":"Naming | Packaging (Próximamente)","links":[]},{"img":"static/img/simon-gonzalez-negrete-celiavalverde.jpg","client":"Célia Valverde","stack":"Rebranding | Web (CargoColective)","links":[{"name":"Web","url":"https://celiavalverde.com/"}]},{"img":"static/img/simon-gonzalez-negrete-larraz.jpg","client":"Bodegas Larraz","stack":"Packaging","links":[{"name":"Behance","url":"https://www.behance.net/gallery/88518471/Flor-de-Caudum"}]},{"img":"static/img/simon-gonzalez-negrete-peninsulaw.jpg","client":"Península","stack":"Web (Wordpress)","links":[{"name":"Web","url":"http://peninsula.work/"}]},{"img":"static/img/simon-gonzalez-negrete-wwda.jpg","client":"Whole Wine","stack":"Direción de Arte","links":[{"name":"Behance","url":"https://www.instagram.com/wholewine/"}]},{"img":"static/img/simon-gonzalez-negrete-peninsula.jpg","client":"Península","stack":"Branding | Naming","links":[{"name":"Behance","url":"https://www.behance.net/gallery/88517191/Peninsula"}]},{"img":"static/img/simon-gonzalez-negrete-ww.jpg","client":"Whole Wine","stack":"Branding | Web","links":[{"name":"Web","url":"http://www.wholewine.com/"},{"name":"Behance","url":"https://www.behance.net/gallery/88516841/Whole-WIne"}]},{"img":"static/img/simon-gonzalez-negrete-luster.jpg","client":"Luster","stack":"Branding | Packaging","links":[{"name":"Behnace","url":"https://www.behance.net/gallery/88518167/Luster"}]}];
 
 /***/ }),
 
@@ -15407,7 +15442,7 @@ function _templateObject() {
 var FontP = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].p(_templateObject(), function (props) {
   return props.size ? props.size : '19px';
 }, function (props) {
-  return props.color === 'white' ? 'white' : 'black';
+  return props.color === '#b5fcbe' ? '#b5fcbe' : 'black';
 }, function (props) {
   return props.align ? props.align : 'left';
 });
@@ -15477,7 +15512,7 @@ function _templateObject() {
 var FontP = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].p(_templateObject(), function (props) {
   return props.size ? props.size : '19px';
 }, function (props) {
-  return props.color === 'white' ? 'white' : 'black';
+  return props.color === '#b5fcbe' ? '#b5fcbe' : 'black';
 }, function (props) {
   return props.align ? props.align : 'left';
 });
