@@ -24,8 +24,11 @@ const Text = () => {
       <nav>
         <div className="info">
           <div className="intro">
-            <FontH1>Soy Simón G. Negrete. Trabajo como Director de Arte y Desarrollo. </FontH1>
-            <FontP>Especializado en branding y producto, acompaño a clientes desde la conceptualización de la idea, pasando por el diseño e implementación en entornos online como offline. </FontP>
+            <FontH1>Hola, soy Simón G. Negrete. Director de Arte, Ux&Ui y desarrollador.  </FontH1>
+            <FontP>He creado proyectos para PYMES, Startups y Multinacionales durante más de 7 años. </FontP>
+            <FontP>A principios de 2019 cofundé <a target="_blank"href="https://tailor-hub.com"> Tailor</a> donde desarrollamos productos digitales a medida. Tambien aporto mi granito de arena como instructor en <a target="_blank"href="https://www.ironhack.com/es"> IronHack Madrid</a> ayudando a formar nuevos profesionales =D.</FontP>
+            <FontP>Si queréis colaborar, plantear algún proyecto, no dudéis en poneros en <a href="mailto:hi@simongnegrete.com"> Contacto</a>.</FontP>
+
           </div>
           <div className="contact">
             <div className="phone">

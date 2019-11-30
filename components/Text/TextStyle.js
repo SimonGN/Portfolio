@@ -4,22 +4,28 @@ const TextStyle = styled.section`
  width:100vw;
  a{
    text-decoration:none;
+   color: black;
  }
 
-h1{
+h1, p{
   margin-bottom:5%;
 }
+h1::selection, a::selection, p::selection {
+    color: #b5fcbe;
+    background: black;
+}
+
 display:flex;
 flex-direction: column;
 nav{
   overflow-y:hidden;
-  position:absolute;
+  position:fixed;
   top:0 ;
   background-color:#b5fcbe;
   width:100vw;
   margin: 0 auto;
   height:100vh;
-  display: ${props => props.view ? 'fixed' : 'none'};
+  display: ${props => props.view ? 'flex' : 'none'};
 }
 .mobile{
   width:90%;
@@ -32,6 +38,8 @@ nav{
 }
 .info{
   width:85vw;
+  height: 92vh;
+
   padding-top: 5%;
   padding-left: 5%;
   padding-bottom:5%;
@@ -72,6 +80,7 @@ nav{
 @media only screen and (min-width: 415px) and (max-width: 768px) {
   .info{
     width: 88vw;
+
     padding-top: 3%;
     padding-left: 3%;
     padding-bottom:3%;
@@ -86,6 +95,9 @@ nav{
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
+  h1, p{
+  margin-bottom:2%;
+}
   .mobile, .close{
     display:none;
   }
@@ -96,7 +108,7 @@ nav{
   }
   .info{
     width:90%;
-    height: 98%;
+    height: 97vh;
     padding-top: 3%;
     padding-left: 3%;
     padding-bottom:3%;
@@ -119,6 +131,9 @@ nav{
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
+  h1, p{
+  margin-bottom:2%;
+}
   .mobile, .close{
     display:none;
   }
@@ -132,7 +147,7 @@ nav{
   }
   .info{
     width:90%;
-    height: 98%;
+    height: 97vh;
     padding-top: 2%;
     padding-left: 2%;
     padding-bottom:2%;
@@ -153,6 +168,9 @@ nav{
 }
 
 @media only screen and (min-width: 1441px) {
+  h1, p{
+  margin-bottom:2%;
+}
   .mobile, .close{
     display:none;
   }
@@ -166,7 +184,7 @@ nav{
   }
   .info{
     width:90%;
-    height: 97%;
+    height: 97vh;
     padding-top: 2%;
     padding-left: 2%;
     padding-bottom:2%;

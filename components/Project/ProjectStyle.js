@@ -3,6 +3,10 @@ import styled from 'styled-components';
 const ProjectStyle = styled.section`
   width:90%;
   margin: 0 auto;
+  a::selection, p::selection {
+    color: #b5fcbe;
+    background: black;
+  }
   img{
     background-repeat:no-repeat;
     background-size: contain;
@@ -30,7 +34,6 @@ const ProjectStyle = styled.section`
   .button{
     width:30%;
     display: flex;
-
     justify-content: space-between;
     flex-direction: row-reverse;
   }

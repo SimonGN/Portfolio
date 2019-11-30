@@ -9,7 +9,7 @@ const Button = props => {
 
     return (
         <ButtonStyle >
-            <FontP color={props.color} size="12px"> {props.content}</FontP>   
+            <FontP color={"#b5fcbe"} size="12px"> {props.content}</FontP>   
         </ButtonStyle>
     );
 };
