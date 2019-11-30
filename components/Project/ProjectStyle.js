@@ -10,6 +10,7 @@ const ProjectStyle = styled.section`
     height:auto;
     max-height:500px;
     display: block;
+    object-fit:cover;
   }
 
   .info{
@@ -27,14 +28,15 @@ const ProjectStyle = styled.section`
     }
   }
   .button{
-    width:40%;
+    width:30%;
     display: flex;
-    flex-flow: row;
+
     justify-content: space-between;
+    flex-direction: row-reverse;
   }
 
    @media only screen and (min-width: 415px) and (max-width: 768px) {
-    
+
   }
 
   @media only screen and (min-width: 769px) and (max-width: 1024px) {
@@ -44,6 +46,9 @@ const ProjectStyle = styled.section`
     .info{
       padding-top: 1%;
       padding-bottom: 2%;
+    }
+    .button{
+      width:35%;
     }
 
   }
@@ -56,6 +61,9 @@ const ProjectStyle = styled.section`
       padding-top: 1%;
       padding-bottom: 2%;
     }
+    .button{
+      width:30%;
+    }
   }
 
   @media only screen and (min-width: 1441px) {
@@ -66,6 +74,9 @@ const ProjectStyle = styled.section`
     .info{
       padding-top: 1%;
       padding-bottom: 2%;
+    }
+    .button{
+      width:25%;
     }
   }
 `;

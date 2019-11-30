@@ -7,7 +7,7 @@ const FontP = styled.p`
     font-size: ${props => (props.size ? props.size : '19px')};
     letter-spacing: 0.03rem;
     line-height: 1.35;
-    color: ${props => (props.color === 'white' ? 'white' : '#4A4A4A')};
+    color: ${props => (props.color === 'white' ? 'white' : 'black')};
     text-align: ${props => (props.align ? props.align : 'left')};;
 
     @media only screen and (min-width:415px) and (max-width:768px){

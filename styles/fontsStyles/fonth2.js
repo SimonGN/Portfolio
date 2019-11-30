@@ -11,7 +11,7 @@ const FontH2 = styled.h2`
     text-decoration: none;
 
     &:visited {
-        color: ${props => (props.color === 'white' ? 'white' : '#4A4A4A')};
+        color: ${props => (props.color === 'white' ? 'white' : 'black')};
     }
     @media only screen and (min-width:415px) and (max-width:768px){
     }

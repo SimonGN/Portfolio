@@ -7,8 +7,13 @@ import { ProjectStyle } from "./ProjectStyle";
 
 import FontP from "../../styles/fontsStyles/fontP";
 
-const Project = ({ img, client, linkWeb, linkBehance, stack, typeDesign, typeWeb }) => {
-
+const Project = ({ img, client, stack, links }) => {
+    const  displayLinks = () => {
+        return links.map((link, i) => {
+            const { name, url  } = link;
+            return (<a key={i} target="_blank" rel="nofollow noopener noreferrer" href={url}><Button content={name}/></a>)
+        })
+    }
 
     return (
         <ProjectStyle  >
@@ -22,8 +27,7 @@ const Project = ({ img, client, linkWeb, linkBehance, stack, typeDesign, typeWeb
                     <FontP align="right" size="15px"> {stack}</FontP>
                 </div>
                 <div className="button">
-                    <Button content={typeDesign || typeWeb} color="#F1A409" backgroundColor="#FCEDCE" />
-                    {!typeWeb &&<Button content="VER PROYECTO" color="#F1A409" backgroundColor="#FCEDCE" />}
+                   {displayLinks()}
                 </div>
 
 

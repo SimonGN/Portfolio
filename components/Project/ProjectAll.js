@@ -7,9 +7,9 @@ const ProjectAll = () => {
     const displayProject = () => {
         return (
             projectJson.map((project) => {
-                const {img, client, linkWeb, linkBehance, stack, type} = project;
+                const {img, client, linkWeb, linkBehance, stack, type, links} = project;
                 return(
-                    <Project img={img} client={client} linkWeb={linkWeb} linkBehance={linkBehance}stack={stack} type={type}/>
+                    <Project img={img} client={client} linkWeb={linkWeb} linkBehance={linkBehance}stack={stack} type={type} links={links}/>
                 )
                 })
             )

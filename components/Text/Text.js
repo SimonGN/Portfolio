@@ -30,20 +30,20 @@ const Text = () => {
           <div className="contact">
             <div className="phone">
               <FontP>Tel:</FontP>
-              <a><FontP>679 206 202</FontP></a>
+              <a href="tel:+34679-206-202"><FontP>679 206 202</FontP></a>
             </div>
             <div className="email">
               <FontP>Email:</FontP>
-              <a><FontP>hi@simongnegrete.com</FontP></a>
+              <a href="mailto:hi@simongnegrete.com"><FontP>hi@simongnegrete.com</FontP></a>
             </div>
             <div className="social">
               <FontP>Social:</FontP>
               <div className="links">
-                <Link href=""><FontP>Linkedin</FontP></Link>
+                <a href="https://www.linkedin.com/in/simongnegrete/" target="_blank"><FontP>Linkedin</FontP></a>
                 <FontP>|</FontP>
-                <Link href=""><FontP>Github</FontP></Link>
+                <a href="https://github.com/SimonGN"target="_blank"><FontP>Github</FontP></a>
                 <FontP>|</FontP>
-                <Link href=""><FontP>Behance</FontP></Link>
+                <a href="https://www.behance.net/simongnegrete"target="_blank"><FontP>Behance</FontP></a>
               </div>
             </div>
           </div>

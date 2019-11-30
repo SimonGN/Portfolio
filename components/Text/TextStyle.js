@@ -2,6 +2,9 @@ import styled from 'styled-components';
 
 const TextStyle = styled.section`
  width:100vw;
+ a{
+   text-decoration:none;
+ }
 
 h1{
   margin-bottom:5%;
@@ -12,7 +15,7 @@ nav{
   overflow-y:hidden;
   position:absolute;
   top:0 ;
-  background-color:#FFF8E6;
+  background-color:#b5fcbe;
   width:100vw;
   margin: 0 auto;
   height:100vh;
