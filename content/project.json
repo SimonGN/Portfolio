@@ -2,7 +2,7 @@
     {
         "img":"static/img/simon-gonzalez-negrete-nunc.jpg",
         "client":"NU:NC",
-        "stack":"Naming | Branding | UX&UI | Web (NextJS)(Próximamente)",
+        "stack":"Naming | Branding | UX/UI | Web",
         "links":[
             {"name":"Web", "url":"https://nunc.app/"}
         ]
@@ -10,26 +10,32 @@
     {
         "img":"static/img/simon-gonzalez-negrete-eijure.gif",
         "client":"Eijure",
-        "stack":"Branding | UX&UI | Web (NextJS)(Próximamente)",
-        "links":[]
+        "stack":"Branding | Web",
+        "links":[
+            {"name":"Próximamente", "url":""}
+        ]
     },
     {
         "img":"static/img/simon-gonzalez-negrete-fabres.jpg",
         "client":"Fabres",
-        "stack":"Branding (Próximamente)",
-        "links":[]
+        "stack":"Branding",
+        "links":[
+            {"name":"Próximamente", "url":""}
+        ]
     },
 
     {
         "img":"static/img/simon-gonzalez-negrete-vegaolea.jpg",
         "client":"Vega Olea",
-        "stack":"Naming | Packaging (Próximamente)",
-        "links":[]
+        "stack":"Naming | Packaging",
+        "links":[
+            {"name":"Próximamente", "url":""}
+        ]
     },
     {
         "img":"static/img/simon-gonzalez-negrete-celiavalverde.jpg",
         "client":"Célia Valverde",
-        "stack":"Rebranding | Web (CargoColective)",
+        "stack":"Rebranding | Web",
         "links":[
             {"name":"Web", "url":"https://celiavalverde.com/"}
         ]
@@ -45,7 +51,7 @@
     {
         "img":"static/img/simon-gonzalez-negrete-peninsulaw.jpg",
         "client":"Península",
-        "stack":"Web (Wordpress)",
+        "stack":"Web",
         "links":[
             {"name":"Web", "url":"http://peninsula.work/"}
         ]
@@ -81,7 +87,7 @@
         "client":"Luster",
         "stack":"Branding | Packaging",
         "links":[
-            {"name":"Behnace", "url":"https://www.behance.net/gallery/88518167/Luster"}
+            {"name":"Behance", "url":"https://www.behance.net/gallery/88518167/Luster"}
         ]
     }
 

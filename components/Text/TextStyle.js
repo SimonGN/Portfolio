@@ -5,6 +5,7 @@ const TextStyle = styled.section`
  a{
    text-decoration:none;
    color: black;
+   cursor: pointer;
  }
 
 h1, p{
@@ -28,7 +29,7 @@ nav{
   display: ${props => props.view ? 'flex' : 'none'};
 }
 .mobile{
-  width:90%;
+  width:83%;
   margin: 0 auto;
   margin-top:5%;
   margin-bottom: 5%;
@@ -38,7 +39,7 @@ nav{
 }
 .info{
   width:85vw;
-  height: 92vh;
+  height: 82vh;
 
   padding-top: 5%;
   padding-left: 5%;
@@ -59,6 +60,7 @@ nav{
   display: flex;
   justify-content:space-between;
   display:none;
+
 }
 .contact{
   width:100%;
@@ -67,9 +69,12 @@ nav{
 .email, .phone, .social, .links {
   display:flex;
   justify-content:space-between;
+  p{
+    margin:0;
+  }
 }
 .email, .phone{
-  margin-bottom: 2%;
+  margin-bottom: 1%;
 }
 .links{
   width: 75%;

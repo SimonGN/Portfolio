@@ -7,7 +7,7 @@ const Meta = () => {
   return (
     <React.Fragment>
       <Head>
-        <meta name="description" content=" Simón González Negrete. Director de Arte, Ux&Ui y desarrollador. "/>  
+        <meta name="description" content=" Simón González Negrete. Director de Arte, UX/UI y Desarrollador Web. "/>  
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="utf-8" />
         
