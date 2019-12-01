@@ -108,7 +108,7 @@ var Meta = function Meta() {
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
     name: "description",
-    content: " Sim\xF3n Gonz\xE1lez Negrete. Director de Arte, Ux&Ui y desarrollador. ",
+    content: " Sim\xF3n Gonz\xE1lez Negrete. Director de Arte, UX/UI y Desarrollador Web. ",
     className: "jsx-3132771393",
     __source: {
       fileName: _jsxFileName,
@@ -142,7 +142,7 @@ var Meta = function Meta() {
   }, "Simon G. Negrete")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "3132771393",
     __self: this
-  }, "@font-face@font-face*{box-sizing:border-box;}body{margin:0;padding:0;max-width:100%;}html,body{overflow-x:hidden;}h1,h2,h3,p{margin-top:0;margin-bottom:0;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9zaW1vbmduZWdyZXRlL0Rlc2t0b3AvVGFpbG9yL1BvcnRmb2xpby9jb21wb25lbnRzL01ldGEuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBZXlCLEFBU2lDLEFBSWIsQUFNUSxBQUdKLFNBUkgsSUFTTSxLQUhsQixDQUxpQixHQUxqQixPQWNBLEtBUkEiLCJmaWxlIjoiL1VzZXJzL3NpbW9uZ25lZ3JldGUvRGVza3RvcC9UYWlsb3IvUG9ydGZvbGlvL2NvbXBvbmVudHMvTWV0YS5qcyIsInNvdXJjZXNDb250ZW50IjpbIlxuXG5cbmltcG9ydCBIZWFkIGZyb20gXCJuZXh0L2hlYWRcIjtcblxuY29uc3QgTWV0YSA9ICgpID0+IHtcbiAgcmV0dXJuIChcbiAgICA8UmVhY3QuRnJhZ21lbnQ+XG4gICAgICA8SGVhZD5cbiAgICAgICAgPG1ldGEgbmFtZT1cImRlc2NyaXB0aW9uXCIgY29udGVudD1cIiBTaW3Ds24gR29uesOhbGV6IE5lZ3JldGUuIERpcmVjdG9yIGRlIEFydGUsIFV4JlVpIHkgZGVzYXJyb2xsYWRvci4gXCIvPiAgXG4gICAgICAgIDxtZXRhIG5hbWU9XCJ2aWV3cG9ydFwiIGNvbnRlbnQ9XCJ3aWR0aD1kZXZpY2Utd2lkdGgsIGluaXRpYWwtc2NhbGU9MVwiIC8+XG4gICAgICAgIDxtZXRhIGNoYXJTZXQ9XCJ1dGYtOFwiIC8+XG4gICAgICAgIFxuICAgICAgICA8dGl0bGU+U2ltb24gRy4gTmVncmV0ZTwvdGl0bGU+XG4gICAgICA8L0hlYWQ+XG4gICAgICA8c3R5bGUganN4IGdsb2JhbD57YFxuICAgICAgICBAZm9udC1mYWNlIHtcblxuICAgICAgICB9XG4gICAgICAgIEBmb250LWZhY2Uge1xuICBcbiAgICAgICAgfVxuICAgICAgICAqIHtcbiAgICAgICAgICBib3gtc2l6aW5nOiBib3JkZXItYm94O1xuICAgICAgICB9XG5cbiAgICAgICAgYm9keSB7XG4gICAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICAgIHBhZGRpbmc6IDA7XG4gICAgICAgICAgbWF4LXdpZHRoOiAxMDAlO1xuICAgICAgICB9XG5cbiAgICAgICAgaHRtbCwgYm9keSB7XG4gICAgICAgICAgb3ZlcmZsb3cteDpoaWRkZW47XG4gICAgICAgIH1cbiAgICAgICAgaDEsIGgyLCBoMywgcCB7XG4gICAgICAgICAgbWFyZ2luLXRvcDogMDtcbiAgICAgICAgICBtYXJnaW4tYm90dG9tOiAwO1xuICAgICAgICB9XG5cbiAgICAgIGB9PC9zdHlsZT5cbiAgICA8L1JlYWN0LkZyYWdtZW50PlxuICApO1xufTtcblxuZXhwb3J0IGRlZmF1bHQgTWV0YTtcbiJdfQ== */\n/*@ sourceURL=/Users/simongnegrete/Desktop/Tailor/Portfolio/components/Meta.js */"));
+  }, "@font-face@font-face*{box-sizing:border-box;}body{margin:0;padding:0;max-width:100%;}html,body{overflow-x:hidden;}h1,h2,h3,p{margin-top:0;margin-bottom:0;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9zaW1vbmduZWdyZXRlL0Rlc2t0b3AvVGFpbG9yL1BvcnRmb2xpby9jb21wb25lbnRzL01ldGEuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBZXlCLEFBU2lDLEFBSWIsQUFNUSxBQUdKLFNBUkgsSUFTTSxLQUhsQixDQUxpQixHQUxqQixPQWNBLEtBUkEiLCJmaWxlIjoiL1VzZXJzL3NpbW9uZ25lZ3JldGUvRGVza3RvcC9UYWlsb3IvUG9ydGZvbGlvL2NvbXBvbmVudHMvTWV0YS5qcyIsInNvdXJjZXNDb250ZW50IjpbIlxuXG5cbmltcG9ydCBIZWFkIGZyb20gXCJuZXh0L2hlYWRcIjtcblxuY29uc3QgTWV0YSA9ICgpID0+IHtcbiAgcmV0dXJuIChcbiAgICA8UmVhY3QuRnJhZ21lbnQ+XG4gICAgICA8SGVhZD5cbiAgICAgICAgPG1ldGEgbmFtZT1cImRlc2NyaXB0aW9uXCIgY29udGVudD1cIiBTaW3Ds24gR29uesOhbGV6IE5lZ3JldGUuIERpcmVjdG9yIGRlIEFydGUsIFVYL1VJIHkgRGVzYXJyb2xsYWRvciBXZWIuIFwiLz4gIFxuICAgICAgICA8bWV0YSBuYW1lPVwidmlld3BvcnRcIiBjb250ZW50PVwid2lkdGg9ZGV2aWNlLXdpZHRoLCBpbml0aWFsLXNjYWxlPTFcIiAvPlxuICAgICAgICA8bWV0YSBjaGFyU2V0PVwidXRmLThcIiAvPlxuICAgICAgICBcbiAgICAgICAgPHRpdGxlPlNpbW9uIEcuIE5lZ3JldGU8L3RpdGxlPlxuICAgICAgPC9IZWFkPlxuICAgICAgPHN0eWxlIGpzeCBnbG9iYWw+e2BcbiAgICAgICAgQGZvbnQtZmFjZSB7XG5cbiAgICAgICAgfVxuICAgICAgICBAZm9udC1mYWNlIHtcbiAgXG4gICAgICAgIH1cbiAgICAgICAgKiB7XG4gICAgICAgICAgYm94LXNpemluZzogYm9yZGVyLWJveDtcbiAgICAgICAgfVxuXG4gICAgICAgIGJvZHkge1xuICAgICAgICAgIG1hcmdpbjogMDtcbiAgICAgICAgICBwYWRkaW5nOiAwO1xuICAgICAgICAgIG1heC13aWR0aDogMTAwJTtcbiAgICAgICAgfVxuXG4gICAgICAgIGh0bWwsIGJvZHkge1xuICAgICAgICAgIG92ZXJmbG93LXg6aGlkZGVuO1xuICAgICAgICB9XG4gICAgICAgIGgxLCBoMiwgaDMsIHAge1xuICAgICAgICAgIG1hcmdpbi10b3A6IDA7XG4gICAgICAgICAgbWFyZ2luLWJvdHRvbTogMDtcbiAgICAgICAgfVxuXG4gICAgICBgfTwvc3R5bGU+XG4gICAgPC9SZWFjdC5GcmFnbWVudD5cbiAgKTtcbn07XG5cbmV4cG9ydCBkZWZhdWx0IE1ldGE7XG4iXX0= */\n/*@ sourceURL=/Users/simongnegrete/Desktop/Tailor/Portfolio/components/Meta.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Meta);
@@ -335,7 +335,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  width:90%;\n  margin: 0 auto;\n  a::selection, p::selection {\n    color: #b5fcbe;\n    background: black;\n  }\n  p{\n    text-align: left;\n  }\n  img{\n    background-repeat:no-repeat;\n    background-size: contain;\n    width:100%;\n    height:auto;\n    max-height:500px;\n    display: block;\n    object-fit:cover;\n  }\n\n  .info{\n    width:95%;\n    margin:0 auto;\n    display:flex;\n    justify-content: space-between;\n    align-items: center;\n    padding-top: 4%;\n    padding-bottom: 10%;\n    .text{\n      display: flex;\n      flex-direction: column;\n      align-items: baseline;\n    }\n  }\n  .button{\n    width:30%;\n    display: flex;\n    justify-content: space-between;\n    flex-direction: row-reverse;\n  }\n\n   @media only screen and (min-width: 415px) and (max-width: 768px) {\n\n  }\n\n  @media only screen and (min-width: 769px) and (max-width: 1024px) {\n    width:45%;\n    margin-left: 52.5%;\n    margin-top:2%;\n    .info{\n      padding-top: 1%;\n      padding-bottom: 2%;\n    }\n    .button{\n      width:35%;\n    }\n\n  }\n\n  @media only screen and (min-width: 1025px) and (max-width: 1440px) {\n    width:45%;\n    margin-left: 52.5%;\n    margin-top:2%;\n    .info{\n      padding-top: 1%;\n      padding-bottom: 2%;\n    }\n    .button{\n      width:30%;\n    }\n  }\n\n  @media only screen and (min-width: 1441px) {\n    width:45%;\n    margin-top:2.5%;\n    margin-left: 52.5%;\n\n    .info{\n      padding-top: 1%;\n      padding-bottom: 2%;\n    }\n    .button{\n      width:25%;\n    }\n  }\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  width:90%;\n  margin: 0 auto;\n  a::selection, p::selection {\n    color: #b5fcbe;\n    background: black;\n  }\n  p{\n    text-align: left;\n  }\n  img{\n    background-repeat:no-repeat;\n    background-size: contain;\n    width:100%;\n    height:auto;\n    max-height:500px;\n    display: block;\n    object-fit:cover;\n  }\n\n  .info{\n    width:95%;\n    margin:0 auto;\n    display:flex;\n    justify-content: space-between;\n    align-items: center;\n    padding-top: 4%;\n    padding-bottom: 10%;\n    .text{\n      display: flex;\n      flex-direction: column;\n      align-items: baseline;\n    }\n  }\n  .button{\n    width:30%;\n    display: flex;\n    justify-content: space-between;\n    flex-direction: row-reverse;\n    a{\n    margin-left:2%;\n  }\n  }\n\n   @media only screen and (min-width: 415px) and (max-width: 768px) {\n\n  }\n\n  @media only screen and (min-width: 769px) and (max-width: 1024px) {\n    width:45%;\n    margin-left: 52.5%;\n    margin-top:2%;\n    .info{\n      padding-top: 1%;\n      padding-bottom: 2%;\n    }\n    .button{\n      width:35%;\n    }\n\n  }\n\n  @media only screen and (min-width: 1025px) and (max-width: 1440px) {\n    width:45%;\n    margin-left: 52.5%;\n    margin-top:2%;\n    .info{\n      padding-top: 1%;\n      padding-bottom: 2%;\n    }\n    .button{\n      width:30%;\n    }\n  }\n\n  @media only screen and (min-width: 1441px) {\n    width:45%;\n    margin-top:2.5%;\n    margin-left: 52.5%;\n\n    .info{\n      padding-top: 1%;\n      padding-bottom: 2%;\n    }\n    .button{\n      width:25%;\n    }\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -437,13 +437,13 @@ var Text = function Text() {
       lineNumber: 27
     },
     __self: this
-  }, "Hola, soy Sim\xF3n G. Negrete. Director de Arte, Ux&Ui y desarrollador.  "), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_styles_fontsStyles_fontp__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }, "Hola, soy Sim\xF3n G. Negrete. Director de Arte, UX/UI y desarrollador web.  "), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_styles_fontsStyles_fontp__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 28
     },
     __self: this
-  }, "He creado proyectos para PYMES, Startups y Multinacionales durante m\xE1s de 7 a\xF1os. "), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_styles_fontsStyles_fontp__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }, "He creado proyectos para PYMES, startups y multinacionales durante m\xE1s de 7 a\xF1os. "), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_styles_fontsStyles_fontp__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 29
@@ -457,7 +457,7 @@ var Text = function Text() {
       lineNumber: 29
     },
     __self: this
-  }, " Tailor"), " donde desarrollamos productos digitales a medida. Tambien aporto mi granito de arena como instructor en ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+  }, " Tailor"), ", donde desarrollamos productos digitales a medida. Tambi\xE9n aporto mi granito de arena como instructor en ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     target: "_blank",
     href: "https://www.ironhack.com/es",
     __source: {
@@ -465,20 +465,20 @@ var Text = function Text() {
       lineNumber: 29
     },
     __self: this
-  }, " IronHack Madrid"), " ayudando a formar nuevos profesionales =D."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_styles_fontsStyles_fontp__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }, " IronHack Madrid"), " ayudando a formar nuevos profesionales en los bootcamps de Desarrollo Web y Dise\xF1o UX/UI."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_styles_fontsStyles_fontp__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 30
     },
     __self: this
-  }, "Si quer\xE9is colaborar, plantear alg\xFAn proyecto, no dud\xE9is en poneros en ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+  }, "Si quieres colaborar o plantear alg\xFAn proyecto, no dudes en ponerte en ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: "mailto:hi@simongnegrete.com",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 30
     },
     __self: this
-  }, " Contacto"), ".")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+  }, " contacto"), ".")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "contact",
     __source: {
       fileName: _jsxFileName,
@@ -626,46 +626,7 @@ var Text = function Text() {
       lineNumber: 55
     },
     __self: this
-  }, "X")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "button",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 57
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
-    href: "",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 58
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Button_Button__WEBPACK_IMPORTED_MODULE_6__["default"], {
-    content: "Dise\xF1o",
-    color: "#F1A409",
-    backgroundColor: "#FCEDCE",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 58
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
-    href: "",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 59
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Button_Button__WEBPACK_IMPORTED_MODULE_6__["default"], {
-    content: "Web",
-    color: "#F1A409",
-    backgroundColor: "#FCEDCE",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 59
-    },
-    __self: this
-  })))));
+  }, "X"))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Text);
@@ -687,7 +648,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n width:100vw;\n a{\n   text-decoration:none;\n   color: black;\n }\n\nh1, p{\n  margin-bottom:5%;\n}\nh1::selection, a::selection, p::selection {\n    color: #b5fcbe;\n    background: black;\n}\n\ndisplay:flex;\nflex-direction: column;\nnav{\n  overflow-y:hidden;\n  position:fixed;\n  top:0 ;\n  background-color:#b5fcbe;\n  width:100vw;\n  margin: 0 auto;\n  height:100vh;\n  display: ", ";\n}\n.mobile{\n  width:90%;\n  margin: 0 auto;\n  margin-top:5%;\n  margin-bottom: 5%;\n  p{\n    width: fit-content;\n  }\n}\n.info{\n  width:85vw;\n  height: 92vh;\n\n  padding-top: 5%;\n  padding-left: 5%;\n  padding-bottom:5%;\n  display:flex;\n  flex-flow:column;\n  justify-content: space-between;\n  \n}\n.close{\n  width:9vw;\n  padding-top: 2%;\n  padding-left: 3%;\n  width: fit-content;\n}\n.button{\n  padding-top:5%;\n  display: flex;\n  justify-content:space-between;\n  display:none;\n}\n.contact{\n  width:100%;\n}\n\n.email, .phone, .social, .links {\n  display:flex;\n  justify-content:space-between;\n}\n.email, .phone{\n  margin-bottom: 2%;\n}\n.links{\n  width: 75%;\n}\n\n\n\n@media only screen and (min-width: 415px) and (max-width: 768px) {\n  .info{\n    width: 88vw;\n    padding-top: 3%;\n    padding-left: 3%;\n    padding-bottom:3%;\n  }\n  .contact{\n    width:60%;\n  }\n  .links{\n    width: 65%;\n  }\n\n}\n\n@media only screen and (min-width: 769px) and (max-width: 1024px) {\n  h1, p{\n  margin-bottom:2%;\n}\n  .mobile, .close{\n    display:none;\n  }\n  nav{\n    width:50%;\n    display:block;\n    position:fixed;\n  }\n  .info{\n    width:95%;\n    height: 97vh;\n    padding-top: 3%;\n    padding-left: 3%;\n    padding-bottom:3%;\n  }\n  .social{\n    width:40%;\n    width: 100%;\n  }\n  .contact{\n    width:80%;\n  }\n  .links{\n    width: 65%;\n  }\n  .email, .phone{\n    margin-bottom: 0.5%;\n  }\n  \n\n}\n\n@media only screen and (min-width: 1025px) and (max-width: 1440px) {\n  h1, p{\n  margin-bottom:2%;\n}\n  .mobile, .close{\n    display:none;\n  }\n  h1{\n  margin-bottom:3%;\n}\n  nav{\n    width:50%;\n    display:block;\n    position:fixed;\n  }\n  .info{\n    width:95%;\n    height: 97vh;\n    padding-top: 2%;\n    padding-left: 2%;\n    padding-bottom:2%;\n  }\n  .contact{\n    width:80%;\n  }\n  .social{\n    width:40%;\n    width: 100%;\n  }\n  .links{\n    width:60%;\n  }\n  .email, .phone{\n    margin-bottom: 0.5%;\n  }\n}\n\n@media only screen and (min-width: 1441px) {\n  h1, p{\n  margin-bottom:2%;\n}\n  .mobile, .close{\n    display:none;\n  }\n  h1{\n  margin-bottom:3%;\n}\n  nav{\n    width:50%;\n    display:block;\n    position:fixed;\n  }\n  .info{\n    width:95%;\n    height: 97vh;\n    padding-top: 2%;\n    padding-left: 2%;\n    padding-bottom:2%;\n  }\n  .social{\n    width:40%;\n    width: 100%;\n  }\n  .contact{\n    width:60%;\n  }\n  .links{\n    width:60%;\n  }\n  .email, .phone{\n    margin-bottom: 0.5%;\n  }\n}\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n width:100vw;\n a{\n   text-decoration:none;\n   color: black;\n   cursor: pointer;\n }\n\nh1, p{\n  margin-bottom:5%;\n}\nh1::selection, a::selection, p::selection {\n    color: #b5fcbe;\n    background: black;\n}\n\ndisplay:flex;\nflex-direction: column;\nnav{\n  overflow-y:hidden;\n  position:fixed;\n  top:0 ;\n  background-color:#b5fcbe;\n  width:100vw;\n  margin: 0 auto;\n  height:100vh;\n  display: ", ";\n}\n.mobile{\n  width:83%;\n  margin: 0 auto;\n  margin-top:5%;\n  margin-bottom: 5%;\n  p{\n    width: fit-content;\n  }\n}\n.info{\n  width:85vw;\n  height: 82vh;\n\n  padding-top: 5%;\n  padding-left: 5%;\n  padding-bottom:5%;\n  display:flex;\n  flex-flow:column;\n  justify-content: space-between;\n  \n}\n.close{\n  width:9vw;\n  padding-top: 2%;\n  padding-left: 3%;\n  width: fit-content;\n}\n.button{\n  padding-top:5%;\n  display: flex;\n  justify-content:space-between;\n  display:none;\n\n}\n.contact{\n  width:100%;\n}\n\n.email, .phone, .social, .links {\n  display:flex;\n  justify-content:space-between;\n  p{\n    margin:0;\n  }\n}\n.email, .phone{\n  margin-bottom: 1%;\n}\n.links{\n  width: 75%;\n}\n\n\n\n@media only screen and (min-width: 415px) and (max-width: 768px) {\n  .info{\n    width: 88vw;\n    padding-top: 3%;\n    padding-left: 3%;\n    padding-bottom:3%;\n  }\n  .contact{\n    width:60%;\n  }\n  .links{\n    width: 65%;\n  }\n\n}\n\n@media only screen and (min-width: 769px) and (max-width: 1024px) {\n  h1, p{\n  margin-bottom:2%;\n}\n  .mobile, .close{\n    display:none;\n  }\n  nav{\n    width:50%;\n    display:block;\n    position:fixed;\n  }\n  .info{\n    width:95%;\n    height: 97vh;\n    padding-top: 3%;\n    padding-left: 3%;\n    padding-bottom:3%;\n  }\n  .social{\n    width:40%;\n    width: 100%;\n  }\n  .contact{\n    width:80%;\n  }\n  .links{\n    width: 65%;\n  }\n  .email, .phone{\n    margin-bottom: 0.5%;\n  }\n  \n\n}\n\n@media only screen and (min-width: 1025px) and (max-width: 1440px) {\n  h1, p{\n  margin-bottom:2%;\n}\n  .mobile, .close{\n    display:none;\n  }\n  h1{\n  margin-bottom:3%;\n}\n  nav{\n    width:50%;\n    display:block;\n    position:fixed;\n  }\n  .info{\n    width:95%;\n    height: 97vh;\n    padding-top: 2%;\n    padding-left: 2%;\n    padding-bottom:2%;\n  }\n  .contact{\n    width:80%;\n  }\n  .social{\n    width:40%;\n    width: 100%;\n  }\n  .links{\n    width:60%;\n  }\n  .email, .phone{\n    margin-bottom: 0.5%;\n  }\n}\n\n@media only screen and (min-width: 1441px) {\n  h1, p{\n  margin-bottom:2%;\n}\n  .mobile, .close{\n    display:none;\n  }\n  h1{\n  margin-bottom:3%;\n}\n  nav{\n    width:50%;\n    display:block;\n    position:fixed;\n  }\n  .info{\n    width:95%;\n    height: 97vh;\n    padding-top: 2%;\n    padding-left: 2%;\n    padding-bottom:2%;\n  }\n  .social{\n    width:40%;\n    width: 100%;\n  }\n  .contact{\n    width:60%;\n  }\n  .links{\n    width:60%;\n  }\n  .email, .phone{\n    margin-bottom: 0.5%;\n  }\n}\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -711,7 +672,7 @@ var TextStyle = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].sectio
 /*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, default */
 /***/ (function(module) {
 
-module.exports = [{"img":"static/img/simon-gonzalez-negrete-nunc.jpg","client":"NU:NC","stack":"Naming | Branding | UX&UI | Web (NextJS)(Próximamente)","links":[{"name":"Web","url":"https://nunc.app/"}]},{"img":"static/img/simon-gonzalez-negrete-eijure.gif","client":"Eijure","stack":"Branding | UX&UI | Web (NextJS)(Próximamente)","links":[]},{"img":"static/img/simon-gonzalez-negrete-fabres.jpg","client":"Fabres","stack":"Branding (Próximamente)","links":[]},{"img":"static/img/simon-gonzalez-negrete-vegaolea.jpg","client":"Vega Olea","stack":"Naming | Packaging (Próximamente)","links":[]},{"img":"static/img/simon-gonzalez-negrete-celiavalverde.jpg","client":"Célia Valverde","stack":"Rebranding | Web (CargoColective)","links":[{"name":"Web","url":"https://celiavalverde.com/"}]},{"img":"static/img/simon-gonzalez-negrete-larraz.jpg","client":"Bodegas Larraz","stack":"Packaging","links":[{"name":"Behance","url":"https://www.behance.net/gallery/88518471/Flor-de-Caudum"}]},{"img":"static/img/simon-gonzalez-negrete-peninsulaw.jpg","client":"Península","stack":"Web (Wordpress)","links":[{"name":"Web","url":"http://peninsula.work/"}]},{"img":"static/img/simon-gonzalez-negrete-wwda.jpg","client":"Whole Wine","stack":"Direción de Arte","links":[{"name":"Behance","url":"https://www.instagram.com/wholewine/"}]},{"img":"static/img/simon-gonzalez-negrete-peninsula.jpg","client":"Península","stack":"Branding | Naming","links":[{"name":"Behance","url":"https://www.behance.net/gallery/88517191/Peninsula"}]},{"img":"static/img/simon-gonzalez-negrete-ww.jpg","client":"Whole Wine","stack":"Branding | Web","links":[{"name":"Web","url":"http://www.wholewine.com/"},{"name":"Behance","url":"https://www.behance.net/gallery/88516841/Whole-WIne"}]},{"img":"static/img/simon-gonzalez-negrete-luster.jpg","client":"Luster","stack":"Branding | Packaging","links":[{"name":"Behnace","url":"https://www.behance.net/gallery/88518167/Luster"}]}];
+module.exports = [{"img":"static/img/simon-gonzalez-negrete-nunc.jpg","client":"NU:NC","stack":"Naming | Branding | UX/UI | Web","links":[{"name":"Web","url":"https://nunc.app/"}]},{"img":"static/img/simon-gonzalez-negrete-eijure.gif","client":"Eijure","stack":"Branding | Web","links":[{"name":"Próximamente","url":""}]},{"img":"static/img/simon-gonzalez-negrete-fabres.jpg","client":"Fabres","stack":"Branding","links":[{"name":"Próximamente","url":""}]},{"img":"static/img/simon-gonzalez-negrete-vegaolea.jpg","client":"Vega Olea","stack":"Naming | Packaging","links":[{"name":"Próximamente","url":""}]},{"img":"static/img/simon-gonzalez-negrete-celiavalverde.jpg","client":"Célia Valverde","stack":"Rebranding | Web","links":[{"name":"Web","url":"https://celiavalverde.com/"}]},{"img":"static/img/simon-gonzalez-negrete-larraz.jpg","client":"Bodegas Larraz","stack":"Packaging","links":[{"name":"Behance","url":"https://www.behance.net/gallery/88518471/Flor-de-Caudum"}]},{"img":"static/img/simon-gonzalez-negrete-peninsulaw.jpg","client":"Península","stack":"Web","links":[{"name":"Web","url":"http://peninsula.work/"}]},{"img":"static/img/simon-gonzalez-negrete-wwda.jpg","client":"Whole Wine","stack":"Direción de Arte","links":[{"name":"Behance","url":"https://www.instagram.com/wholewine/"}]},{"img":"static/img/simon-gonzalez-negrete-peninsula.jpg","client":"Península","stack":"Branding | Naming","links":[{"name":"Behance","url":"https://www.behance.net/gallery/88517191/Peninsula"}]},{"img":"static/img/simon-gonzalez-negrete-ww.jpg","client":"Whole Wine","stack":"Branding | Web","links":[{"name":"Web","url":"http://www.wholewine.com/"},{"name":"Behance","url":"https://www.behance.net/gallery/88516841/Whole-WIne"}]},{"img":"static/img/simon-gonzalez-negrete-luster.jpg","client":"Luster","stack":"Branding | Packaging","links":[{"name":"Behance","url":"https://www.behance.net/gallery/88518167/Luster"}]}];
 
 /***/ }),
 
